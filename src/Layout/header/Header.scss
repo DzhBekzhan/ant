@@ -1,0 +1,28 @@
+.header{
+    background: #1e252b;
+    color: rgba(255, 255, 255, 0.55);
+    padding-top: 31px;
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__lists{
+        display: flex;
+        column-gap: 30px;
+    }
+    &__auth{
+        display: flex;
+        column-gap: 41px;
+        align-items: center;
+        button{
+            width: 118px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background: #FF6E30;
+    color: white;
+    font-weight: 600;
+        }
+    }
+}
